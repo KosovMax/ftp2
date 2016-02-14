@@ -1,32 +1,35 @@
 {
-	"name": "kosovmax/exceptions",
-    "type": "library",
-    "description": "Task FTP",
-    "keywords": ["task","ftp"],
-    "version": "1.0.0",
-    "reference": "v1.0.0",
-    "homepage": "https://github.com/KosovMax/ftp",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Kosovets Maxim",
-            "email": "moskvichmax@gmail.com",
-            "role": "Developer"
+    "repositories":[
+    {
+    	"name": "kosovmax/exceptions",
+        "type": "library",
+        "description": "Task FTP",
+        "keywords": ["task","ftp"],
+        "version": "1.0.0",
+        "reference": "v1.0.0",
+        "homepage": "https://github.com/KosovMax/ftp",
+        "license": "MIT",
+        "authors": [
+            {
+                "name": "Kosovets Maxim",
+                "email": "moskvichmax@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "minimum-stability": "dev",
+    	"prefer-stable": true,
+        "autoload": {
+    		"psr-4": {
+    			"models\\": "app/models"
+    		}
+    	},
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
         }
-    ],
-    "require": {
-        "php": ">=5.3.0"
-    },
-    "minimum-stability": "dev",
-	"prefer-stable": true,
-    "autoload": {
-		"psr-4": {
-			"models\\": "app/models"
-		}
-	},
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    }
+    }]
 }
