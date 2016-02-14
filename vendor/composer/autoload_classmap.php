@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'models\\Maxim' => $baseDir . '/app/models/Maxim.php',
+    'models\\Ftp' => $baseDir . '/app/models/Ftp.php',
     'models\\User' => $baseDir . '/app/models/User.php',
 );
