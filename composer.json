@@ -2,6 +2,8 @@
 	"name": "kosovmax_ftp/exceptions",
     "type": "library",
     "description": "Task FTP",
+    "keywords": ["task","ftp"],
+    "version":"1.0",
     "homepage": "https://github.com/KosovMax/ftp",
     "license": "MIT",
     "authors": [
@@ -14,10 +16,11 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "minimum-stability": "dev",
+	"prefer-stable": true,
 	"autoload": {
 		"psr-4":{
 			"models\\": "app/models"
 		}
-	},
-	"minimum-stability": "dev"
+	}
 }
