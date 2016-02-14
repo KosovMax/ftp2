@@ -1,5 +1,5 @@
 {
-	"name": "kosovmax_ftp/exceptions",
+	"name": "kosovmax/exceptions",
     "type": "library",
     "description": "Task FTP",
     "keywords": ["task","ftp"],
