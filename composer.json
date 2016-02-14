@@ -3,7 +3,8 @@
     "type": "library",
     "description": "Task FTP",
     "keywords": ["task","ftp"],
-    "version":"1.0.0",
+    "version": "1.0.0",
+    "reference": "1.0.0",
     "homepage": "https://github.com/KosovMax/ftp",
     "license": "MIT",
     "authors": [
@@ -19,7 +20,7 @@
     "minimum-stability": "dev",
 	"prefer-stable": true,
     "autoload": {
-		"psr-4":{
+		"psr-4": {
 			"models\\": "app/models"
 		}
 	},
