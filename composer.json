@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Task FTP",
     "keywords": ["task","ftp"],
-    "version":"1.0",
+    "version":"1.0.0",
     "homepage": "https://github.com/KosovMax/ftp",
     "license": "MIT",
     "authors": [
